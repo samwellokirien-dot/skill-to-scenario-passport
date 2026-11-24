@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project Architecture
+
+- Keep SkillVerify AI's 3-step assessment workflow client-persisted in `localStorage` (hydrated in `useEffect`) and route live Gemini API calls through `src/lib/skillverify.functions.ts` (`createServerFn`) so browser keys never hit CORS issues and Demo Mode works offline.

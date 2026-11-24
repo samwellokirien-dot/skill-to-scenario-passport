@@ -93,7 +93,7 @@ export function EvidenceDropzone({ id, label, description, files, onChange }: Ev
               <Button
                 type="button"
                 variant="ghost"
-                size="icon-sm"
+                size="icon"
                 onClick={() => onChange(files.filter((item) => item.id !== file.id))}
                 aria-label={`Remove ${file.name}`}
               >

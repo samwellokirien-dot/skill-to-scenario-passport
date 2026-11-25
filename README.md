@@ -1,69 +1,175 @@
-# Skill To Scenario Passport
+# SkillVerify AI
+### Turning Refugee Skills into Recognised Opportunities
 
-Yes, **Lovable** is an ideal choice for this hackathon. The concept note states that the building phase uses **"AI Tools,"** meaning AI app builders like Lovable are explicitly encouraged.
+**SkillVerify AI** is an AI-assisted competency assessment platform designed to help skilled refugees demonstrate their professional knowledge, experience and practical abilities.
 
-Because Lovable generates full-stack React/Tailwind web apps automatically, you only need **two or three supporting tools** to make your Track 1 app (**SkillVerify AI**) fully functional and ready to submit.
+The platform addresses the problem of brain waste, where qualified and experienced displaced professionals struggle to access opportunities because their qualifications are difficult to verify, their academic documents are unavailable, or their skills are not adequately recognised.
 
-### 1. Your Exact Lovable-Centered Tool Stack
+SkillVerify AI provides a structured three-stage process for mapping professional backgrounds, assessing practical competencies and generating personalised development pathways.
 
-* **Frontend & App Builder: [Lovable**](https://lovable.dev)
-* **What it does:** Builds the entire user interface, multi-step wizard (Step 1: Qualification Input → Step 2: Scenario Assessment → Step 3: Competency Passport), and responsive layout from natural language prompts.
-* **Deployment:** Lovable includes one-click publishing, giving you a live public URL immediately for the November 27 submission form.
+## Live Application
 
+**Try SkillVerify AI:**  
+https://skill-to-scenario-passport.lovable.app/
 
-* **AI Engine: [Gemini API](https://aistudio.google.com/) (`gemini-2.5-flash`) or Lovable AI**
-* **What it does:** Powers the credential translation, generates the 3 practical scenario questions, and grades the user's answers to produce the Competency Passport.
-* **How to connect:** You can either use Lovable’s built-in AI integration or connect a free Gemini API key via a Supabase Edge Function so your key stays secure.
+**GitHub Repository:**  
+https://github.com/samwellokirien-dot/skill-to-scenario-passport
 
+## Problem Statement
 
-* **Backend & Database (Optional): [Supabase**](https://supabase.com)
-* **What it does:** Lovable connects natively to Supabase with one click. Use it only if you want to save generated Competency Passports to a database or securely store your AI API key.
-* **Hackathon shortcut:** If you want zero backend setup, tell Lovable to store the assessment state in React state / `localStorage` and use a simple client-side input field for the API key (just like a "Demo Mode" toggle).
+Many refugees possess valuable academic qualifications, professional experience and technical skills. However, displacement can result in lost documents, limited access to qualification recognition services and difficulties demonstrating their abilities to potential employers.
 
+Consequently, skilled individuals may remain unemployed or work in positions below their qualifications.
 
+SkillVerify AI aims to address this challenge by helping displaced professionals present evidence of their existing competencies and identify pathways towards further recognition, training and professional opportunities.
+
+## Our Solution
+
+SkillVerify AI uses a three-stage workflow:
+
+### Step 1: Qualification Mapper
+**Professional Background, Evidence and Qualification Pathways**
+
+This stage collects and analyses the candidate's professional background.
+
+Key features include:
+- Professional field and claimed occupation.
+- Country of qualification and professional experience.
+- Previous employment and responsibilities.
+- Available academic and professional documents.
+- Alternative evidence for candidates whose documents are unavailable.
+- Identification of relevant skills and competencies.
+- Suggested qualification recognition pathways.
+
+**Output:** A structured professional background and qualification mapping report.
+
+### Step 2: Practical Assessment
+**Three Real-World Professional Scenarios**
+
+This stage assesses how candidates apply their knowledge and experience in realistic professional situations.
+
+Key features include:
+- Profession-specific scenario generation.
+- Three practical assessment scenarios.
+- Candidate responses to real-world challenges.
+- Competency-based evaluation.
+- Individual assessment scores and feedback.
+- Identification of demonstrated strengths and skills gaps.
+
+**Output:** A preliminary practical competency assessment report.
+
+### Step 3: Competency Passport
+**Assessment Report and Personalised 30-Day Development Plan**
+
+This stage transforms the assessment results into a structured professional development document.
+
+Key features include:
+- Candidate professional profile.
+- Assessment results and demonstrated competencies.
+- Identified skills gaps.
+- Preliminary competency classification.
+- Potential qualification recognition pathways.
+- Personalised 30-day development roadmap.
+- Print and PDF functionality.
+
+**Output:** An AI-assisted Competency Passport and 30-day development plan.
+
+## Target Users
+
+The platform is designed primarily for:
+
+- Skilled refugees and displaced professionals.
+- Refugees whose academic documents have been lost or are unavailable.
+- Professionals seeking recognition of prior learning.
+- Individuals requiring bridging training or further competency assessment.
+
+Potential secondary stakeholders include employers, training institutions, professional assessment bodies and organisations supporting refugee employment.
+
+## Alignment with Sustainable Development Goals
+
+SkillVerify AI contributes to the following Sustainable Development Goals:
+
+**SDG 4 – Quality Education:** Supports recognition of prior learning and pathways towards further professional training.
+
+**SDG 8 – Decent Work and Economic Growth:** Helps skilled refugees demonstrate their abilities and prepare for professional opportunities.
+
+**SDG 10 – Reduced Inequalities:** Addresses barriers that prevent displaced professionals from accessing opportunities.
+
+**SDG 16 – Peace, Justice and Strong Institutions:** Promotes transparent and accountable approaches to skills recognition.
+
+**SDG 17 – Partnerships for the Goals:** Encourages collaboration among employers, professional bodies, training institutions and refugee-support organisations.
+
+## Technology
+
+The project source code uses the following technologies:
+
+- React
+- TypeScript
+- TanStack Start
+- Vite
+- Tailwind CSS
+- Lovable development platform
+
+AI-assisted functionality supports the platform's qualification mapping, scenario assessment and competency reporting workflows.
+
+## Project Limitations and Responsible Use
+
+SkillVerify AI is an AI-assisted assessment and professional development tool. Its generated reports are not official academic qualifications, professional licences or legal work authorisations.
+
+AI-generated assessment results are preliminary and should not replace formal qualification recognition, professional examinations, regulatory approval or assessment by recognised institutions.
+
+Final qualification equivalence and professional eligibility must be determined by the relevant authorities.
+
+The platform is a prototype developed to demonstrate a practical approach to the recognition and validation of skills among displaced professionals.
+
+## Future Development
+
+Potential areas for further development include:
+
+- Partnerships with recognised qualification assessment institutions.
+- Integration with professional regulatory bodies.
+- Multilingual support.
+- Secure document verification and evidence management.
+- Human review of competency assessment results.
+- Connections to mentorship, bridging programmes and employment opportunities.
+
+## Running the Project Locally
+
+To run the project on your computer:
+
+1. Install Node.js.
+2. Clone the repository:
+
+   `git clone https://github.com/samwellokirien-dot/skill-to-scenario-passport.git`
+
+3. Open the project directory:
+
+   `cd skill-to-scenario-passport`
+
+4. Install dependencies:
+
+   `npm install`
+
+5. Start the development server:
+
+   `npm run dev`
+
+Follow any additional environment configuration required by the project.
+
+## Project Information
+
+**Project Name:** SkillVerify AI
+
+**Project Category:** AI for Social Impact / Skills Recognition
+
+**Hackathon Theme:** Unlocking Displaced Talent: Pathways for Skilled Refugees
+
+**Primary Focus:** Credential Recognition and Skills Validation
+
+**Development Platform:** Lovable
+
+**Live Demo:** https://skill-to-scenario-passport.lovable.app/
 
 ---
 
-### 2. Other Allowed AI Tools (If You Need Extras)
-
-If you want to polish your submission beyond the app itself, these tools fit seamlessly alongside Lovable:
-
-* **UI Polish / Components:** [v0.dev](https://v0.dev) (if you want to grab specific layout inspiration, though Lovable handles this natively).
-* **Demo Video Recording:** [Loom](https://www.loom.com) or [OBS Studio](https://obsproject.com) — great for recording a crisp 2-minute walkthrough of your live Lovable URL.
-* **Design / Pitch Deck (if needed):** [Gamma](https://gamma.app) or [Canva](https://www.canva.com) for quick visual slides summarizing your SDG 4 & 8 impact.
-
----
-
-### 3. Ready-to-Use Lovable Prompt for Track 1
-
-When you open Lovable, paste this prompt to generate your complete Track 1 app on the first try:
-
-> "Build a clean, modern web application called **SkillVerify AI** for the ILO Mini-Hackathon (Track 1: Credential Recognition & Skills Validation for Skilled Refugees). Use a trustworthy blue, white, and slate color palette with clear progress steps.
-> Create a 3-step interactive workflow:
-> 1. **Step 1: Foreign Qualification & Experience Mapper** — A form where a user enters their claimed profession, country of origin, years of experience, and a summary of their past work (with a 'Load Sample Persona' dropdown featuring a displaced Civil Engineer from Syria and a Nurse from South Sudan). Include a checkbox for 'Physical documents lost/unavailable'. Clicking 'Analyze & Generate Assessment' translates their background into Kenyan/international credential equivalents and generates 3 practical, scenario-based technical questions.
-> 2. **Step 2: Practical Competency Assessment** — Displays the 3 scenario-based questions with text areas for the candidate to write how they would handle each real-world work scenario. Clicking 'Evaluate Skills' grades their practical reasoning.
-> 3. **Step 3: Verified AI Competency Passport & Bridging Roadmap** — Displays an official-looking digital certificate/report card showing their Verified Competency Level (Emerging, Competent, or Senior), specific validated technical skills, a 30-day bridging/re-certification action plan (aligned with SDGs 4 and 8), and a 'Print / Save as PDF' button.
-> 
-> 
-> Include a 'Demo Mode (Pre-filled AI)' toggle in the top navbar so judges can test the full 3-step flow instantly without needing an API key, plus an option to connect a live Gemini API key."
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://skill-to-scenario-passport.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/844e262c-33c3-4eb9-812f-d4df36c07c9a).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+*SkillVerify AI — Turning Skills into Opportunities.*

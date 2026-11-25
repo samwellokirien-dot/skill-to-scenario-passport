@@ -1,175 +1,166 @@
 # SkillVerify AI
+
 ### Turning Refugee Skills into Recognised Opportunities
 
-**SkillVerify AI** is an AI-assisted competency assessment platform designed to help skilled refugees demonstrate their professional knowledge, experience and practical abilities.
+**SkillVerify AI** is a digital platform concept designed to help skilled refugees and displaced persons demonstrate their professional competencies, map their previous qualifications and identify pathways towards further training and employment.
 
-The platform addresses the problem of brain waste, where qualified and experienced displaced professionals struggle to access opportunities because their qualifications are difficult to verify, their academic documents are unavailable, or their skills are not adequately recognised.
+The project addresses a major challenge facing displaced professionals: many have valuable education, technical skills and work experience, but displacement, missing documents and differences in qualification recognition systems can prevent them from accessing opportunities.
 
-SkillVerify AI provides a structured three-stage process for mapping professional backgrounds, assessing practical competencies and generating personalised development pathways.
+Our goal is to make skills more visible, assess practical competencies and support pathways towards professional integration.
 
-## Live Application
+## Live Prototype
 
-**Try SkillVerify AI:**  
-https://skill-to-scenario-passport.lovable.app/
+**Try the application:**
+[https://skill-to-scenario-passport.lovable.app/](https://skill-to-scenario-passport.lovable.app/)
 
-**GitHub Repository:**  
-https://github.com/samwellokirien-dot/skill-to-scenario-passport
+**GitHub Repository:**
+[https://github.com/samwellokirien-dot/skill-to-scenario-passport](https://github.com/samwellokirien-dot/skill-to-scenario-passport)
 
-## Problem Statement
+## The Problem
 
-Many refugees possess valuable academic qualifications, professional experience and technical skills. However, displacement can result in lost documents, limited access to qualification recognition services and difficulties demonstrating their abilities to potential employers.
+Displacement does not mean a loss of professional ability. However, skilled refugees often encounter barriers when trying to continue their careers in host communities.
 
-Consequently, skilled individuals may remain unemployed or work in positions below their qualifications.
+Some of these barriers include:
 
-SkillVerify AI aims to address this challenge by helping displaced professionals present evidence of their existing competencies and identify pathways towards further recognition, training and professional opportunities.
+- Lost, damaged or unavailable academic and professional documents.
+- Difficulty translating foreign qualifications into local qualification frameworks.
+- Limited opportunities to demonstrate practical skills.
+- Lack of access to professional networks and career guidance.
+- Uncertainty about the training or recognition pathways required to enter a profession.
+
+These challenges can lead to underemployment and the loss of valuable human potential.
 
 ## Our Solution
 
-SkillVerify AI uses a three-stage workflow:
+SkillVerify AI proposes a structured digital process through which displaced professionals can present their backgrounds, demonstrate practical competencies and receive personalised development guidance.
 
-### Step 1: Qualification Mapper
-**Professional Background, Evidence and Qualification Pathways**
+The platform follows a three-stage process.
 
-This stage collects and analyses the candidate's professional background.
+### 1. Qualification and Experience Mapping
 
-Key features include:
-- Professional field and claimed occupation.
-- Country of qualification and professional experience.
+Users provide information about their professional backgrounds, including:
+
+- Claimed profession or occupation.
+- Country where they studied or gained experience.
+- Years of professional experience.
 - Previous employment and responsibilities.
-- Available academic and professional documents.
-- Alternative evidence for candidates whose documents are unavailable.
-- Identification of relevant skills and competencies.
-- Suggested qualification recognition pathways.
+- Relevant skills and competencies.
+- Availability of academic or professional documents.
 
-**Output:** A structured professional background and qualification mapping report.
+The platform recognises that some displaced professionals may have lost access to their original documents.
 
-### Step 2: Practical Assessment
-**Three Real-World Professional Scenarios**
+### 2. Practical Competency Assessment
 
-This stage assesses how candidates apply their knowledge and experience in realistic professional situations.
+Users are presented with profession-related, real-world scenarios that allow them to demonstrate their knowledge, judgement and problem-solving abilities.
 
-Key features include:
-- Profession-specific scenario generation.
-- Three practical assessment scenarios.
-- Candidate responses to real-world challenges.
-- Competency-based evaluation.
-- Individual assessment scores and feedback.
-- Identification of demonstrated strengths and skills gaps.
+The assessment is intended to:
 
-**Output:** A preliminary practical competency assessment report.
+- Evaluate responses to practical workplace situations.
+- Identify demonstrated competencies.
+- Highlight potential skills gaps.
+- Provide feedback on areas requiring further development.
 
-### Step 3: Competency Passport
-**Assessment Report and Personalised 30-Day Development Plan**
+This approach recognises that professional ability should not be judged exclusively by the availability of academic certificates.
 
-This stage transforms the assessment results into a structured professional development document.
+### 3. Competency Passport and Development Plan
 
-Key features include:
-- Candidate professional profile.
-- Assessment results and demonstrated competencies.
-- Identified skills gaps.
-- Preliminary competency classification.
-- Potential qualification recognition pathways.
-- Personalised 30-day development roadmap.
-- Print and PDF functionality.
+After completing the assessment, users receive an AI-assisted competency report and a personalised development plan.
 
-**Output:** An AI-assisted Competency Passport and 30-day development plan.
+The report is designed to present:
+
+- Professional background.
+- Demonstrated competencies.
+- Assessment feedback.
+- Potential qualification or recognition pathways.
+- Areas requiring further training.
+- A proposed 30-day development plan.
+
+The report can help users understand their next steps towards professional recognition and employment opportunities.
 
 ## Target Users
 
-The platform is designed primarily for:
+SkillVerify AI is designed primarily for:
 
 - Skilled refugees and displaced professionals.
-- Refugees whose academic documents have been lost or are unavailable.
-- Professionals seeking recognition of prior learning.
-- Individuals requiring bridging training or further competency assessment.
+- Refugees whose academic documents are missing or unavailable.
+- Employers seeking better ways to understand candidates' practical competencies.
+- Training institutions and organisations supporting professional integration.
+- Organisations involved in skills recognition and refugee employment programmes.
 
-Potential secondary stakeholders include employers, training institutions, professional assessment bodies and organisations supporting refugee employment.
+## Expected Impact
 
-## Alignment with Sustainable Development Goals
+The project aims to contribute to more inclusive labour markets by helping displaced professionals demonstrate the skills they already possess.
 
-SkillVerify AI contributes to the following Sustainable Development Goals:
+Expected benefits include:
 
-**SDG 4 – Quality Education:** Supports recognition of prior learning and pathways towards further professional training.
+1. **Improved skills visibility:** Making professional competencies easier to present and understand.
+2. **Inclusive assessment:** Providing an alternative way to demonstrate practical abilities when conventional documentation is unavailable.
+3. **Better career guidance:** Identifying possible training, bridging and recognition pathways.
+4. **Reduced skills waste:** Supporting the productive use of talent within host communities.
+5. **Improved access to opportunities:** Helping candidates communicate their competencies to relevant institutions and potential employers.
 
-**SDG 8 – Decent Work and Economic Growth:** Helps skilled refugees demonstrate their abilities and prepare for professional opportunities.
+## Alignment with the Sustainable Development Goals
 
-**SDG 10 – Reduced Inequalities:** Addresses barriers that prevent displaced professionals from accessing opportunities.
+SkillVerify AI supports the following United Nations Sustainable Development Goals:
 
-**SDG 16 – Peace, Justice and Strong Institutions:** Promotes transparent and accountable approaches to skills recognition.
+| SDG                                             | Contribution                                                                                                      |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| SDG 4 – Quality Education                       | Supports skills assessment, lifelong learning and identification of further training needs.                       |
+| SDG 8 – Decent Work and Economic Growth         | Promotes pathways towards productive employment and the recognition of professional competencies.                 |
+| SDG 10 – Reduced Inequalities                   | Addresses barriers that can exclude displaced professionals from economic opportunities.                          |
+| SDG 16 – Peace, Justice and Strong Institutions | Encourages transparent and responsible approaches to skills assessment and recognition.                           |
+| SDG 17 – Partnerships for the Goals             | Creates opportunities for collaboration among employers, training institutions and refugee-support organisations. |
 
-**SDG 17 – Partnerships for the Goals:** Encourages collaboration among employers, professional bodies, training institutions and refugee-support organisations.
+## Technology and Development
 
-## Technology
+The project was developed using **Lovable**, an AI-assisted application development platform.
 
-The project source code uses the following technologies:
+The GitHub repository contains the application's source code and project files.
 
-- React
-- TypeScript
-- TanStack Start
-- Vite
-- Tailwind CSS
-- Lovable development platform
+The project uses a modern web development structure. Its implementation details can be found in the repository configuration files.
 
-AI-assisted functionality supports the platform's qualification mapping, scenario assessment and competency reporting workflows.
+## Responsible Use and Limitations
 
-## Project Limitations and Responsible Use
+SkillVerify AI is a prototype intended to demonstrate an alternative approach to skills assessment and career development for displaced professionals.
 
-SkillVerify AI is an AI-assisted assessment and professional development tool. Its generated reports are not official academic qualifications, professional licences or legal work authorisations.
+It is important to understand that:
 
-AI-generated assessment results are preliminary and should not replace formal qualification recognition, professional examinations, regulatory approval or assessment by recognised institutions.
+- An AI-assisted assessment is not an official academic qualification.
+- The competency report does not replace formal credential recognition.
+- Professional licensing remains the responsibility of relevant regulatory authorities.
+- The platform does not grant legal permission to work.
+- Assessment results should be reviewed by qualified human assessors before being used for important professional decisions.
+- Users' personal information and assessment responses should be handled responsibly and securely.
 
-Final qualification equivalence and professional eligibility must be determined by the relevant authorities.
-
-The platform is a prototype developed to demonstrate a practical approach to the recognition and validation of skills among displaced professionals.
+The platform is intended to complement existing recognition and assessment systems, not replace them.
 
 ## Future Development
 
-Potential areas for further development include:
+Future improvements could include:
 
-- Partnerships with recognised qualification assessment institutions.
-- Integration with professional regulatory bodies.
-- Multilingual support.
-- Secure document verification and evidence management.
-- Human review of competency assessment results.
-- Connections to mentorship, bridging programmes and employment opportunities.
+- Secure document and alternative evidence uploads.
+- Multilingual support for displaced professionals.
+- More profession-specific assessment scenarios.
+- Human expert review and verification.
+- Integration with recognised qualification assessment bodies.
+- Connections to employers, mentorship programmes and training institutions.
+- Improved privacy, data protection and secure storage.
+- More accessible pathways for users with limited internet connectivity.
 
-## Running the Project Locally
-
-To run the project on your computer:
-
-1. Install Node.js.
-2. Clone the repository:
-
-   `git clone https://github.com/samwellokirien-dot/skill-to-scenario-passport.git`
-
-3. Open the project directory:
-
-   `cd skill-to-scenario-passport`
-
-4. Install dependencies:
-
-   `npm install`
-
-5. Start the development server:
-
-   `npm run dev`
-
-Follow any additional environment configuration required by the project.
-
-## Project Information
+## Hackathon Project Information
 
 **Project Name:** SkillVerify AI
-
-**Project Category:** AI for Social Impact / Skills Recognition
-
 **Hackathon Theme:** Unlocking Displaced Talent: Pathways for Skilled Refugees
-
-**Primary Focus:** Credential Recognition and Skills Validation
-
-**Development Platform:** Lovable
-
-**Live Demo:** https://skill-to-scenario-passport.lovable.app/
+**Project Track:** Credential Recognition and Skills Validation
+**Primary Focus:** Helping skilled refugees demonstrate competencies and identify professional development pathways.
 
 ---
 
-*SkillVerify AI — Turning Skills into Opportunities.*
+### Project Vision
+
+**A person's potential should not be limited by the documents they lost during displacement.**
+
+SkillVerify AI seeks to make professional skills more visible, support fairer assessment and help displaced talent move towards meaningful opportunities.
+
+---
+
